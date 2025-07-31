@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(0, 0, 0);
+    padding:20px;
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+    margin-bottom: 50px;
+}
+h1{
+    font: 700 2.5rem 'Arial', sans-serif;
+    margin-top: 30px;
+    color: white;
+    margin-bottom: 20px;
+}
+main{
+    width:90%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 400px);
+    grid-template-rows: repeat (auto-fill, 400px);
+    gap: 20px;
+}
+div{
+    background-color: gray;
+    width:400px;
+    height:200px;
+    border-radius: 20px;;
+    border: 1px solid black;
+}
+.div1{
+    background-image: url(imagens/g1.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.div2{
+    background-image: url(imagens/g2.webp);
+    background-position: center center;
+    background-size: cover;
+}
+.div3{
+    background-image: url(imagens/g3.webp);
+    background-position: center center;
+    background-size: cover;
+}
+.div4{
+    background-image: url(imagens/g4.webp);
+    background-position: center center;
+    background-size: cover;
+}
+.div5{
+    background-image: url(imagens/g5.webp);
+    background-position: center center;
+    background-size: cover;
+}
+.div6{
+    background-image: url(imagens/g6.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+p{
+    font: 700 1.5em 'Arial', sans-serif;
+    color: rgb(71, 71, 71);
+}
